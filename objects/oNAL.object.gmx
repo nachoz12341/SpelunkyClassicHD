@@ -123,7 +123,7 @@ browser_height_previous=browser_height
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.soundVol&lt;=0 global.soundVol=17
+            <string>/*if global.soundVol&lt;=0 global.soundVol=17
 else global.soundVol=0//-=4
 </string>
           </argument>
@@ -147,7 +147,7 @@ else global.soundVol=0//-=4
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.musicVol&lt;=0 global.musicVol=17
+            <string>/*if global.musicVol&lt;=0 global.musicVol=17
 else global.musicVol=0//-=4
 </string>
           </argument>

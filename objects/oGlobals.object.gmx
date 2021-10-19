@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>// gamepad
 
-global.joyid = 0;
+global.joyid = 1;
 
 //
 

@@ -150,6 +150,7 @@ n = ceil(n / 2);
 draw_text(n, 32, tr("PRESS BUTTON FOR"));
 draw_text(8, 96, tr("ESC TO KEEP SAME."));
 draw_text(8, 104, tr("CURRENT: "));
+draw_text(8, 120, string("Gamepad: ")+gamepad_get_description(global.joyid));
 
 if ((!gamepad_is_connected(global.joyid)) and 
         (string_length(gamepad_get_description(global.joyid)) &lt; 1)) {

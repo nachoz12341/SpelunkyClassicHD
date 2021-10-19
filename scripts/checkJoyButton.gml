@@ -17,7 +17,10 @@ for (var i = 0; i < array_length_1d(__allowedbuttons); i++)
 {
     var _btn = __allowedbuttons[i];
     if (gamepad_button_check(global.joyid, _btn))
+    {
+        show_debug_message("checkJoyButton: PRESSED "+string(_btn));
         return _btn;
+    }
 }
 
 if (gamepad_button_value(global.joyid, gp_shoulderlb) > 0.6)

@@ -1460,7 +1460,7 @@ if (global.html5Build) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>toggleMusic();
+            <string>//toggleMusic();
 </string>
           </argument>
         </arguments>

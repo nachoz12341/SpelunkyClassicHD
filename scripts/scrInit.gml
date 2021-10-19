@@ -32,7 +32,7 @@ startGame = false;
 
 // Defaults
 global.touchControlsVisibility = 0;
-if (global.mobileBuild) global.touchControlsVisibility = 2;
+//if (global.mobileBuild) global.touchControlsVisibility = 0;
 global.toggleRun = false;
 global.firstLaunch = true;
 global.locale = "en";

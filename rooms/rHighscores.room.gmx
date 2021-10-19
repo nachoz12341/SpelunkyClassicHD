@@ -21,7 +21,7 @@ if (instance_exists(oResetSign)) {
     oResetSign.sprite_index = sResetSignNew;
 }</code>
   <enableViews>-1</enableViews>
-  <clearViewBackground>-1</clearViewBackground>
+  <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
